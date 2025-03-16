@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-algo2-hw-10"
+version = "0.1.0"
+description = ""
+authors = ["Artur Prepelytsia <preart81@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
